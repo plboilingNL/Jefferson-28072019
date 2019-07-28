@@ -2,4 +2,11 @@
 debug.log
 build/.vscode
 /sitecake
-sitecake
+config.codekit
+config.codekit3
+/min
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
