@@ -25,14 +25,6 @@
 		"oAP": "/build/.htaccess",
 		"oF": 0
 		},
-	"/18032018.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/18032018.zip",
-		"oF": 0
-		},
 	"/_footer.kit": {
 		"cB": 1,
 		"ft": 2048,
@@ -98,215 +90,12 @@
 		"oT": 1,
 		"q": 85
 		},
-	"/assets/restaurant/.jeff-b.jpg.icloud": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/.jeff-b.jpg.icloud",
-		"oF": 0
-		},
-	"/assets/restaurant/.jeff_b.jpg.icloud": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/.jeff_b.jpg.icloud",
-		"oF": 0
-		},
 	"/assets/restaurant/background.jpg": {
 		"ft": 16384,
 		"iS": 82265,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/restaurant/background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/chef_dark.jpg": {
-		"ft": 16384,
-		"iS": 175915,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/chef_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/cover_dark.jpg": {
-		"ft": 16384,
-		"iS": 135547,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/cover_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/event_1_dark.jpg": {
-		"ft": 16384,
-		"iS": 43826,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/event_1_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/event_2_dark.jpg": {
-		"ft": 16384,
-		"iS": 31191,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/event_2_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/event_3_dark.jpg": {
-		"ft": 16384,
-		"iS": 39774,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/event_3_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_10_dark.jpg": {
-		"ft": 16384,
-		"iS": 52953,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_10_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_11_dark.jpg": {
-		"ft": 16384,
-		"iS": 63625,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_11_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_12_dark.jpg": {
-		"ft": 16384,
-		"iS": 62000,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_12_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_1_dark.jpg": {
-		"ft": 16384,
-		"iS": 55114,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_1_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_2_dark.jpg": {
-		"ft": 16384,
-		"iS": 30910,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_2_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_3_dark.jpg": {
-		"ft": 16384,
-		"iS": 39595,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_3_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_4_dark.jpg": {
-		"ft": 16384,
-		"iS": 50866,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_4_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_5_dark.jpg": {
-		"ft": 16384,
-		"iS": 43269,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_5_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_6_dark.jpg": {
-		"ft": 16384,
-		"iS": 61943,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_6_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_7_dark.jpg": {
-		"ft": 16384,
-		"iS": 39662,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_7_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_8_dark.jpg": {
-		"ft": 16384,
-		"iS": 53882,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_8_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/food_9_dark.jpg": {
-		"ft": 16384,
-		"iS": 51652,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/food_9_dark.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -752,14 +541,6 @@
 		"opt": 1,
 		"q": 85
 		},
-	"/assets/restaurant/JEFF_Logo_Suppliers.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/JEFF_Logo_Suppliers.ai",
-		"oF": 0
-		},
 	"/assets/restaurant/JEFF_logo_white.png": {
 		"ft": 32768,
 		"iS": 3165,
@@ -802,132 +583,6 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
-		},
-	"/assets/restaurant/makereservation_dark.jpg": {
-		"ft": 16384,
-		"iS": 105832,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/makereservation_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/signature.png": {
-		"ft": 32768,
-		"iS": 26420,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/signature.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 85
-		},
-	"/assets/restaurant/Tekst contactformulier.docx": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/Tekst contactformulier.docx",
-		"oF": 0
-		},
-	"/assets/restaurant/testimonal_background_dark.jpg": {
-		"ft": 16384,
-		"iS": 146006,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/testimonal_background_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/testimonial_1_dark.jpg": {
-		"ft": 16384,
-		"iS": 40031,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/testimonial_1_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/testimonial_2_dark.jpg": {
-		"ft": 16384,
-		"iS": 28763,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/testimonial_2_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/testimonial_3_dark.jpg": {
-		"ft": 16384,
-		"iS": 26459,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/testimonial_3_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/venue_1_dark.jpg": {
-		"ft": 16384,
-		"iS": 132173,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/venue_1_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/venue_2_dark.jpg": {
-		"ft": 16384,
-		"iS": 98004,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/venue_2_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/venue_3_dark.jpg": {
-		"ft": 16384,
-		"iS": 90538,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/venue_3_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/venue_4_dark.jpg": {
-		"ft": 16384,
-		"iS": 147254,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/venue_4_dark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
-		},
-	"/assets/restaurant/Website-over ons 2018.docx": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/assets/restaurant/Website-over ons 2018.docx",
-		"oF": 0
 		},
 	"/browserconfig.xml": {
 		"cB": 0,
@@ -1229,6 +884,30 @@
 		"oAP": "/build/nl2018_v.pdf",
 		"oF": 0
 		},
+	"/partijen.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/partijen.html",
+		"oF": 0
+		},
+	"/privacy.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/privacy.html",
+		"oF": 0
+		},
+	"/privacy.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/privacy.pdf",
+		"oF": 0
+		},
 	"/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -1298,7 +977,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 585935539.38224995
+	"lastBuiltDate": 586047157.11760402
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
