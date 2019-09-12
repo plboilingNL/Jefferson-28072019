@@ -20,7 +20,7 @@
                 <br>Wij wensen u fijne feestdagen en verwelkomen u graag weer in 2019!</p> -->
                 </div>
                 <div class="col-lg-5 p-3">
-                    <form class="p-4 bg-dark-opaque" action="https://formspree.io/reservering@barjefferson.nl"
+                    <form id="my-form" class="p-4 bg-dark-opaque" action="https://formspree.io/reservering@barjefferson.nl"
                         method="POST">
                         <h4 class="mb-4 text-center">Maak een reservering</h4>
                         <div class="form-group"> <label>Voor en achternaam</label>
@@ -38,9 +38,9 @@
                         </div>
                         <div class="form-group"> <label>Opmerkingen</label>
                             <input type="text" name="Opmerkingen" class="form-control" placeholder="Opmerkingen"> </div>
-                        <button type="submit" class="btn mt-4 btn-block btn-outline-primary p-2"><b>Reserveer
+                        <button id="my-form-button" type="submit" class="btn mt-4 btn-block btn-outline-primary p-2"><b>Reserveer
                                 nu</b></button>
-                        <input type="hidden" name="_next" value="thanks.html" />
+                        <p id="my-form-status"></p>
                     </form>
                 </div>
             </div>
@@ -191,14 +191,18 @@
             <span class="menu overlay-h">MENU</span>
             <div class="row sc-content">
 
-                <div class="col-md-6">
-                    <a class="btn mt-4 btn-block btn-outline-light p-4" href="menu/menu2019.pdf">Nederlandse
+                <div class="col-md-4">
+                    <a class="btn mt-4 btn-block btn-outline-light p-4" href="https://res.cloudinary.com/phloxfoto/image/upload/Jefferson/menu/jefferson_menu_nl.pdf">Nederlandse
                         menukaart</a>
                 </div>
-                <div class="col-md-6">
-                    <a id="pdf-en" class="btn mt-4 btn-block btn-outline-light p-4" href="menu/menu2019en.pdf">English
+                <div class="col-md-4">
+                    <a id="pdf-en" class="btn mt-4 btn-block btn-outline-light p-4" href="https://res.cloudinary.com/phloxfoto/image/upload/Jefferson/menu/jefferson_menu_en.pdf">English
                         menu</a>
                 </div>
+                <div class="col-md-4">
+                    <a id="pdf-en" class="btn mt-4 btn-block btn-outline-light p-4" href="https://res.cloudinary.com/phloxfoto/image/upload/Jefferson/menu/drank2019.pdf">Wine & drinks selection</a>
+                </div>
+
             </div>
         </div>
     </div>
@@ -238,3 +242,53 @@
     <!-- Footer -->
 <!-- @import footer -->
 <!-- @import scripts -->
+    <script>
+    window.addEventListener("DOMContentLoaded", function() {
+
+        // get the form elements defined in your form HTML above
+
+        var form = document.getElementById("my-form");
+        var button = document.getElementById("my-form-button");
+        var status = document.getElementById("my-form-status");
+
+        // Success and Error functions for after the form is submitted
+
+        function success() {
+        form.reset();
+        button.style = "display: none ";
+        status.innerHTML = "Thanks!";
+        }
+
+        function error() {
+        status.innerHTML = "Oops! There was a problem.";
+        }
+
+        // handle the form submission event
+
+        form.addEventListener("submit", function(ev) {
+        ev.preventDefault();
+        var data = new FormData(form);
+        ajax(form.method, form.action, data, success, error);
+        });
+    });
+
+    // helper function for sending an AJAX request
+
+    function ajax(method, url, data, success, error) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.onreadystatechange = function() {
+        if (xhr.readyState !== XMLHttpRequest.DONE) return;
+        if (xhr.status === 200) {
+            success(xhr.response, xhr.responseType);
+        } else {
+            error(xhr.status, xhr.response, xhr.responseType);
+        }
+        };
+        xhr.send(data);
+    }
+    </script>
+</body>
+
+</html>

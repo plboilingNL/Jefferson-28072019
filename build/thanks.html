@@ -31,7 +31,7 @@
   integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE="
   crossorigin="anonymous"></script>
 
-  
+
 <script>
   /*
 * This is the plugin
@@ -41,7 +41,7 @@
 /*
 * Here is how you use it
 */
-$(function(){    
+$(function(){
     $('.view-pdf').on('click',function(){
         var pdf_link = $(this).attr('href');
         var iframe = '<div class="iframe-container"><iframe src="'+pdf_link+'"></iframe></div>'
@@ -51,8 +51,8 @@ $(function(){
         closeButton:true,
         scrollable:false
         });
-        return false;        
-    });    
+        return false;
+    });
 })
 </script>
 <script>
@@ -61,7 +61,7 @@ $(function(){
     $('figure').click(function(){
       popup.open($(this));
     });
-    
+
     $(document).on('click', '.popup img', function(){
       return false;
     }).on('click', '.popup', function(){
@@ -114,17 +114,16 @@ popup.init()
           <li class="nav-item mx-2">
             <a class="nav-link" href="index.html#menu"><b>MENU</b></a>
           </li>
+          <li class="nav-item mx-2">
+                    <a class="nav-link" href="partijen.html"><b>PARTIJEN</b></a>
+          </li>
           <li class="nav-item mx-1">
             <a class="nav-link" href="https://www.facebook.com/JeffersonBar/"><i class="fa d-inline fa-facebook-square"></i></a>
           </li>
-          <!-- <li class="nav-item mx-1">
-            <a class="nav-link" href="#"><i class="fa d-inline fa-twitter"></i></a>
-          </li>
           <li class="nav-item mx-1">
-            <a class="nav-link" href="#"><i class="fa d-inline fa-pinterest"></i></a>
-          </li> -->
+            <a class="nav-link" href="https://www.instagram.com/jeffersonbarbrasserie/"><i class="fa d-inline fa-instagram"></i></a>
+          </li>
         </ul>
-       
       </div>
     </div>
   </nav>
@@ -136,7 +135,7 @@ popup.init()
           <img class="img-fluid d-block logo_m" src="assets/restaurant/JEFF_logo_white.svg" id="c_img"> </div>
         <div class="col-lg-5 p-3">
           <!-- <p class="p-4 kerst">
-              Jefferson is tijdens de Kerstvakantie gesloten van 24 december t/m 1 januari. 
+              Jefferson is tijdens de Kerstvakantie gesloten van 24 december t/m 1 januari.
               <br>Wij wensen u fijne feestdagen en verwelkomen u graag weer in 2019!
           </p> -->
           <p class="p-4">Hartelijk dank voor uw reservering <br> Wij hebben deze in goede orde ontvangen.
@@ -152,9 +151,9 @@ Nogmaals dank en tot snel bij Jefferson!
 <div id="thover"></div>
 
   <div id="tpopup">
-    <p>Modal demo</p> 
+    <p>Modal demo</p>
 
-    <div id="tclose">X</div>    
+    <div id="tclose">X</div>
 </div>
   <!-- Footer -->
 
@@ -163,7 +162,7 @@ Nogmaals dank en tot snel bij Jefferson!
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center align-self-center cont-logo">
-          <img class="logo_m center d-block" src="assets/restaurant/JEFF_logo_white.svg"> 
+          <img class="logo_m center d-block" src="assets/restaurant/JEFF_logo_white.svg">
         </div>
         <div class="col-md-4 p-4">
           <h2 class="mb-4">Contact</h2>
@@ -206,9 +205,9 @@ Nogmaals dank en tot snel bij Jefferson!
   <script src="js/smooth-scroll.js"></script>
   <script>
     $(".more").toggle(function(){
-    $(this).text("less..").siblings(".complete").show();    
+    $(this).text("less..").siblings(".complete").show();
 }, function(){
-    $(this).text("more..").siblings(".complete").hide();    
+    $(this).text("more..").siblings(".complete").hide();
 });
   </script>
   <script src="js/modal.js"></script>

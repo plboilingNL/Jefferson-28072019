@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#626769">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>JEFFERSON Bar Brasserie | Amsterdam | Bedankt voor het invullen van het contactformulier.</title>
+  <meta name="description" content="Bar-brasserie met attente bediening waar u al vanaf 8:00 uur terecht kunt voor koffie,lunch, goede wijnen en bijzondere bieren of een heerlijk diner">
+  <meta name="keywords" content="jefferson,amsterdam brasserie,restaurant,bar,wijnbar,de schinkel">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="theme.css" type="text/css">
+  <link rel="stylesheet" href="colorbox.css" type="text/css">
+  <link rel="stylesheet" href="main.css">
+
+  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  <script src="js/navbar-ontop.js"></script>
+  <!-- Script: Animated entrance -->
+  <script src="js/animate-in.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-1.11.1.min.js"
+  integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE="
+  crossorigin="anonymous"></script>
+
+
+<script>
+  /*
+* This is the plugin
+*/
+(function(a){a.createModal=function(b){defaults={title:"",message:"Your Message Goes Here!",closeButton:true,scrollable:false};var b=a.extend({},defaults,b);var c=(b.scrollable===true)?'style="max-height: 420px;overflow-y: auto;"':"";html='<div class="modal fade" id="myModal">';html+='<div class="modal-dialog">';html+='<div class="modal-content">';html+='<div class="modal-header">';html+='<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>';if(b.title.length>0){html+='<h4 class="modal-title">'+b.title+"</h4>"}html+="</div>";html+='<div class="modal-body" '+c+">";html+=b.message;html+="</div>";html+='<div class="modal-footer">';if(b.closeButton===true){html+='<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>'}html+="</div>";html+="</div>";html+="</div>";html+="</div>";a("body").prepend(html);a("#myModal").modal().on("hidden.bs.modal",function(){a(this).remove()})}})(jQuery);
+
+/*
+* Here is how you use it
+*/
+$(function(){
+    $('.view-pdf').on('click',function(){
+        var pdf_link = $(this).attr('href');
+        var iframe = '<div class="iframe-container"><iframe src="'+pdf_link+'"></iframe></div>'
+        $.createModal({
+        title:'My Title',
+        message: iframe,
+        closeButton:true,
+        scrollable:false
+        });
+        return false;
+    });
+})
+</script>
+<script>
+    popup = {
+  init: function(){
+    $('figure').click(function(){
+      popup.open($(this));
+    });
+
+    $(document).on('click', '.popup img', function(){
+      return false;
+    }).on('click', '.popup', function(){
+      popup.close();
+    })
+  },
+  open: function($figure) {
+    $('.gallery').addClass('pop');
+    $popup = $('<div class="popup" />').appendTo($('body'));
+    $fig = $figure.clone().appendTo($('.popup'));
+    $bg = $('<div class="bg" />').appendTo($('.popup'));
+    $close = $('<div class="close"><svg><use xlink:href="#close"></use></svg></div>').appendTo($fig);
+    $shadow = $('<div class="shadow" />').appendTo($fig);
+    src = $('img', $fig).attr('src');
+    $shadow.css({backgroundImage: 'url(' + src + ')'});
+    $bg.css({backgroundImage: 'url(' + src + ')'});
+    setTimeout(function(){
+      $('.popup').addClass('pop');
+    }, 10);
+  },
+  close: function(){
+    $('.gallery, .popup').removeClass('pop');
+    setTimeout(function(){
+      $('.popup').remove()
+    }, 100);
+  }
+}
+
+popup.init()
+
+</script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar-expand-md navbar-dark bg-dark navbar fixed-top">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-3">
+            <a class="nav-link text-light" href="index.html"><b>HOME</b></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="index.html#over"><b>OVER ONS</b></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="index.html#gallery"><b>IMPRESSIE</b></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="index.html#menu"><b>MENU</b></a>
+          </li>
+          <li class="nav-item mx-2">
+                    <a class="nav-link" href="partijen.html"><b>PARTIJEN</b></a>
+                </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="https://www.facebook.com/JeffersonBar/"><i class="fa d-inline fa-facebook-square"></i></a>
+          </li>
+          <li class="nav-item mx-1">
+                    <a class="nav-link" href="https://www.instagram.com/jeffersonbarbrasserie/"><i class="fa d-inline fa-instagram"></i></a>
+                </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Cover -->
+  <div class="align-items-center d-flex photo-overlay py-5 cover" style="background-image: url('assets/restaurant/background.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 align-self-center text-lg-left text-center cont-logo">
+          <img class="img-fluid d-block logo_m" src="assets/restaurant/JEFF_logo_white.svg" id="c_img"> </div>
+        <div class="col-lg-5 p-3">
+          <!-- <p class="p-4 kerst">
+              Jefferson is tijdens de Kerstvakantie gesloten van 24 december t/m 1 januari.
+              <br>Wij wensen u fijne feestdagen en verwelkomen u graag weer in 2019!
+          </p> -->
+          <p class="p-4">Hartelijk dank voor uw reservering <br> Wij hebben deze in goede orde ontvangen.
+Uw reservering is wel pas definitief als wij deze hebben gezien en deze is bevestigd. Wilt u direct weten of er beschikbaarheid is, bel ons dan even op <a href="tel:0206173804">0206173804</a><br><br>
+Op zaterdag en zondag zijn wij uitsluitend op aanvraag geopend voor besloten partijen, wij maken graag een afspraak om de mogelijkheden te bespreken. <br><br>
+Voor speciale wensen, vragen en opmerkingen kunt u altijd contact opnemen op <a href="tel:0206173804">0206173804</a> of <a href="mailto:info@barjefferson.nl">info@barjefferson.nl</a>
+Nogmaals dank en tot snel bij Jefferson!
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<div id="thover"></div>
+
+  <div id="tpopup">
+    <p>Modal demo</p>
+
+    <div id="tclose">X</div>
+</div>
+  <!-- Footer -->
+
+
+  <div class="text-center align-self-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center align-self-center cont-logo">
+          <img class="logo_m center d-block" src="assets/restaurant/JEFF_logo_white.svg">
+        </div>
+        <div class="col-md-4 p-4">
+          <h2 class="mb-4">Contact</h2>
+          <p class="m-0">
+            <a href="tel:+310206173804" class="text-white">020-6173804</a>
+          </p>
+          <p>
+            <a href="mailto:info@barjefferson.nl" class="text-white">info@barjefferson.nl</a>
+          </p>
+          <a href="https://www.facebook.com/JeffersonBar/" target="blank"><i class="fa fa-fw fa-facebook-square fa-2x text-white"></i></a>
+        </div>
+        <div class="col-md-4 p-4">
+          <h2 class="mb-4">Adres</h2>
+          <p>
+            <a href="https://goo.gl/maps/y6ZNyQw6H5t" target="_blank" class="text-white">Vliegtuigstraat 16-18
+              <br>1059 CL Amsterdam</a>
+          </p>
+        </div>
+        <div class="col-md-4 p-4">
+          <h2 class="mb-4">Openingstijden</h2>
+          <p>Maandag t/m Woensdag 8:00 - 22:00
+            <br>Donderdag en Vrijdag 8:00 - 00:00
+            <br>Zaterdag en Zondag op aanvraag</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <p class="text-center text-muted">© Copyright 2018 Jefferson Bar Brasserie - All rights reserved. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript dependencies -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"></script>
+  <!-- Script: Smooth scrolling between anchors in the same page -->
+  <script src="js/smooth-scroll.js"></script>
+  <script>
+    $(".more").toggle(function(){
+    $(this).text("less..").siblings(".complete").show();
+}, function(){
+    $(this).text("more..").siblings(".complete").hide();
+});
+  </script>
+  <script src="js/modal.js"></script>
+
+   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;">
+      <symbol id="close" viewBox="0 0 18 18">
+        <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507
+          S17.507,13.698,17.507,9S13.698,0.493,9,0.493z M12.491,11.491c0.292,0.296,0.292,0.773,0,1.068c-0.293,0.295-0.767,0.295-1.059,0
+          l-2.435-2.457L6.564,12.56c-0.292,0.295-0.766,0.295-1.058,0c-0.292-0.295-0.292-0.772,0-1.068L7.94,9.035L5.435,6.507
+          c-0.292-0.295-0.292-0.773,0-1.068c0.293-0.295,0.766-0.295,1.059,0l2.504,2.528l2.505-2.528c0.292-0.295,0.767-0.295,1.059,0
+          s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"/>
+      </symbol>
+    </svg>
+
+
+
+
+</body>
+
+</html>

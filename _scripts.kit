@@ -1,8 +1,13 @@
 <script src="js/jquery-3.3.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <!-- Script: Smooth scrolling between anchors in the same page -->
+     <script src="js/scripts.js"></script>
     <script src="js/smooth-scroll.js"></script>
     <script src="js/ekko-lightbox.min.js"></script>
+    <script src="js/jquery-clockpicker.min.js"></script>
+      <script type="text/javascript">
+$('.clockpicker').clockpicker();
+</script>
     <script>
         $(document).on('click', '[data-toggle="lightbox"]', function (event) {
             event.preventDefault();
@@ -74,6 +79,7 @@
             });
         })
     </script>
+    <script src="js/formspree.js"></script>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;">
         <symbol id="close" viewBox="0 0 18 18">
             <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507
@@ -83,6 +89,57 @@
               s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z" />
         </symbol>
     </svg>
-</body>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
 
-</html>
+    // get the form elements defined in your form HTML above
+
+    var form = document.getElementById("my-form");
+    var button = document.getElementById("my-form-button");
+    var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Bedankt voor aanvragen van een belafspraak, we zullen ons best doen om op het aangegeven tijdstip te bellen. Tot snel!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
+<script type="text/javascript">
+$('.clockpicker').clockpicker({
+    placement: 'bottom',
+    align: 'left',
+    donetext: 'Bevestigen'
+});
+</script>
