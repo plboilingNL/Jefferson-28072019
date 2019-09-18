@@ -20,7 +20,7 @@
                 <br>Wij wensen u fijne feestdagen en verwelkomen u graag weer in 2019!</p> -->
                 </div>
                 <div class="col-lg-5 p-3">
-                    <form id="my-form" class="p-4 bg-dark-opaque" action="https://formspree.io/reservering@barjefferson.nl"
+                    <form id="my-form2" class="p-4 bg-dark-opaque" action="https://formspree.io/reservering@barjefferson.nl"
                         method="POST">
                         <h4 class="mb-4 text-center">Maak een reservering</h4>
                         <div class="form-group"> <label>Voor en achternaam</label>
@@ -38,9 +38,10 @@
                         </div>
                         <div class="form-group"> <label>Opmerkingen</label>
                             <input type="text" name="Opmerkingen" class="form-control" placeholder="Opmerkingen"> </div>
-                        <button id="my-form-button" type="submit" class="btn mt-4 btn-block btn-outline-primary p-2"><b>Reserveer
+                        <button id="my-form-button2" type="submit" class="btn mt-4 btn-block btn-outline-primary p-2"><b>Reserveer
                                 nu</b></button>
-                        <p id="my-form-status"></p>
+                        </br>
+                        <p id="my-form-status2" class="my-3"></p>
                     </form>
                 </div>
             </div>
@@ -238,7 +239,6 @@
         </div>
     </div>
     </div>
-
     <!-- Footer -->
 <!-- @import footer -->
 <!-- @import scripts -->
@@ -247,20 +247,20 @@
 
         // get the form elements defined in your form HTML above
 
-        var form = document.getElementById("my-form");
-        var button = document.getElementById("my-form-button");
-        var status = document.getElementById("my-form-status");
+        var form = document.getElementById("my-form2");
+        var button = document.getElementById("my-form-button2");
+        var status = document.getElementById("my-form-status2");
 
         // Success and Error functions for after the form is submitted
 
         function success() {
         form.reset();
         button.style = "display: none ";
-        status.innerHTML = "Thanks!";
+        status.innerHTML = "Hartelijk dank voor uw reserveringsaanvraag! Wij sturen u nog een email om de reservering te bevestigen, tot die tijd is de reservering nog niet verwerkt.";
         }
 
         function error() {
-        status.innerHTML = "Oops! There was a problem.";
+        status.innerHTML = "Oeps! Daar ging iets verkeerd. <br><br> Er is echter iets fout gegaan, om je toch zo snel mogelijk te woord te staan, zou je zo vrij willen zijn om een email te sturen naar jevon@barjefferson.nl? <br> Dan nemen we op die manier contact met je op. Natuurlijk kan je ook bellen naar 020-6173804. <br> Hopelijke tot snel!";
         }
 
         // handle the form submission event

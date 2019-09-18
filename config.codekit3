@@ -25,13 +25,11 @@
 		"oAP": "/build/.htaccess",
 		"oF": 0
 		},
-	"/.vscode/settings.json": {
-		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/.vscode/settings.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
+	"/.vscode": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/.vscode",
+		"oF": 0
 		},
 	"/_footer.kit": {
 		"cB": 1,
@@ -1108,7 +1106,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 589995638.134372
+	"lastBuiltDate": 589996988.03856397
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3167,7 +3165,7 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "_cache,cache,.idea,log,_logs,logs,node_modules,/storage/framework/sessions,./Vscode,/sitecake",
+	"skippedFoldersString": "_cache,cache,.idea,log,_logs,logs,node_modules,/sitecake,/storage/framework/sessions,./Vscode,.vscode",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
